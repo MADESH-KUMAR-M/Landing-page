@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    background-color: rgb(225, 224, 224);
+    overflow-x: hidden;
+}
+#top-img{
+    width: 100%;
+    height: 50vh;
+    margin: 0;
+}
+.nav{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index: 100;
+    width: 100%;
+    background-color: transparent;
+    color: #a84620;
+}
+img{
+    width: 40%;
+    size: 40%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.place{
+    display: flex;
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+.place-name{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+.content{
+    width: 40%;
+}
+
+p{
+    font-size: large;
+}
+.price-list{
+    display: flex;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-top: 35px;
+}
+.price{
+    text-align: center;
+    box-shadow: 5px 5px 2px lightblue;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+}
+ul{
+    text-align: left;
+}
+#book{
+    background-color: lightgreen;
+    color: red;
+    font-weight: bolder;
+    font-size: large;
+
+    height: 30px;
+    border: 0;
+    border-radius: 10px;
+}
+#offer{
+    text-align: center;
+}
+.off{
+    size: 10%;
+    width: 25%;
+    position: absolute;
+    top: -5%;
+    right: -10%;
+    animation: blink 1.5s linear infinite;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0.9;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    70%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+footer{
+    text-align: center;
+}
+.media{
+    width: 2.5%;
+    padding: 0;
+    padding-left: 5px;
+    margin: 0;
+}
